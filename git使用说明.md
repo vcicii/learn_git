@@ -36,3 +36,12 @@ git status
 工作区                  暂存区                     Git仓库
 
 git log 显示历史所有提交记录
+
+
+                 (id)
+git remote add origin git@github.com:vcicii/learn_git.git
+git push -u origin master # origin 仓库别名 master 分支名，有可能是别的maingit 
+
+git remote  显示所有仓库别名id
+git remote get-url id 
+git remote remove id
